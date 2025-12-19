@@ -27,7 +27,7 @@ const Pricing: React.FC = () => {
   ];
 
   return (
-    <section id="pricing" className="py-32 bg-[#0a0a0a] relative overflow-hidden">
+    <section id="pricing" className="py-20 md:py-32 bg-[#0a0a0a] relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">
@@ -59,13 +59,13 @@ const Pricing: React.FC = () => {
             </Button>
           </a>
           <div className="mt-8 flex flex-wrap justify-center gap-6 text-slate-500 text-xs font-medium">
-             <span className="flex items-center gap-1">✓ Build it live during the workshop</span>
-             <span className="flex items-center gap-1">✓ Personal feedback provided</span>
-             <span className="flex items-center gap-1">✓ Results in under 180 mins</span>
+            <span className="flex items-center gap-1">✓ Build it live during the workshop</span>
+            <span className="flex items-center gap-1">✓ Personal feedback provided</span>
+            <span className="flex items-center gap-1">✓ Results in under 180 mins</span>
           </div>
         </div>
       </div>
-      
+
       {/* Glow Effect Bottom */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-64 bg-fuchsia-900/10 blur-[100px] rounded-full -z-10"></div>
     </section>

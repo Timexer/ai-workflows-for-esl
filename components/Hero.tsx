@@ -5,14 +5,14 @@ import { motion } from 'framer-motion';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative pt-32 pb-20 overflow-hidden bg-[#0a0a0a]">
+    <section className="relative pt-24 pb-16 md:pt-32 md:pb-20 overflow-hidden bg-[#0a0a0a]">
       <div className="container mx-auto px-4 relative z-10 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white tracking-tight mb-8 leading-tight max-w-5xl mx-auto">
+          <h1 className="text-3xl md:text-6xl lg:text-7xl font-extrabold text-white tracking-tight mb-6 md:mb-8 leading-tight max-w-5xl mx-auto">
             Stop wasting 10-20 hours <br />
             every week on prep that <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 to-purple-500">AI can do for You</span>
@@ -26,22 +26,22 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <a href="#signup">
-            <Button size="lg" className="bg-gradient-to-r from-fuchsia-600 to-purple-600 hover:from-fuchsia-500 hover:to-purple-500 border-none px-12 py-5 text-xl font-bold rounded-full shadow-[0_0_20px_rgba(192,38,211,0.4)] transform transition hover:scale-105 active:scale-95">
+            <Button size="lg" className="bg-gradient-to-r from-fuchsia-600 to-purple-600 hover:from-fuchsia-500 hover:to-purple-500 border-none px-8 py-4 md:px-12 md:py-5 text-lg md:text-xl font-bold rounded-full shadow-[0_0_20px_rgba(192,38,211,0.4)] transform transition hover:scale-105 active:scale-95">
               Secure Your Spot (3 hours)
             </Button>
           </a>
 
-          <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 text-slate-400 text-sm font-medium">
+          <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 md:gap-x-8 text-slate-400 text-xs md:text-sm font-medium">
             <div className="flex items-center gap-2">
-              <Check className="w-4 h-4 text-fuchsia-500" />
+              <Check className="w-3 h-3 md:w-4 md:h-4 text-fuchsia-500" />
               <span>Grounded in British Council/Cambridge standards</span>
             </div>
             <div className="flex items-center gap-2">
-              <Check className="w-4 h-4 text-fuchsia-500" />
+              <Check className="w-3 h-3 md:w-4 md:h-4 text-fuchsia-500" />
               <span>Develop ready-to-use templates in 180 min</span>
             </div>
             <div className="flex items-center gap-2">
-              <Check className="w-4 h-4 text-fuchsia-500" />
+              <Check className="w-3 h-3 md:w-4 md:h-4 text-fuchsia-500" />
               <span>100% Practical</span>
             </div>
           </div>
@@ -58,5 +58,4 @@ const Hero: React.FC = () => {
     </section>
   );
 };
-
 export default Hero;

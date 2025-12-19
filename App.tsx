@@ -19,11 +19,7 @@ function App() {
       <Header />
       <main>
         <Hero />
-        {/* 
-          NOTE: This section is skipped for now and will be stored for later in the future.
-          Do not delete.
-          <Audience /> 
-        */}
+        <Audience />
         <ValuePillars />
         <Curriculum />
         <Research />
