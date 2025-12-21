@@ -19,7 +19,7 @@ const Header: React.FC = () => {
         <div className="flex items-center gap-2">
           <Link to="/" className="flex items-center">
             <img
-              src="/logo.jpg"
+              src="/logo.png"
               alt="Tim's AI Tips"
               className="h-10 md:h-12 w-auto object-contain hover:opacity-90 transition-opacity"
             />
