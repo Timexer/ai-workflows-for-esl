@@ -51,11 +51,11 @@ const ValuePillars: React.FC = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-5xl font-bold mb-6">
+          <h2 className="text-4xl md:text-6xl font-bold mb-6">
             What if you could SEE exactly which <br />
             ESL processes are worth automating?
           </h2>
-          <div className="flex flex-wrap justify-center gap-6 text-slate-400 text-sm mt-8 italic">
+          <div className="flex flex-wrap justify-center gap-6 text-slate-400 text-lg mt-10 italic">
             <span className="flex items-center gap-2">Discover your personal automation potential during our live hands-on session.</span>
           </div>
         </motion.div>
@@ -70,8 +70,8 @@ const ValuePillars: React.FC = () => {
           {pillars.map((pillar, index) => (
             <motion.div key={index} variants={item} className="p-8 rounded-xl bg-[#121212] border border-white/5 hover:bg-[#161616] transition-colors hover:border-fuchsia-500/30 group">
               <div className="mb-6 group-hover:scale-110 transition-transform duration-300">{pillar.icon}</div>
-              <h3 className="text-lg font-bold text-white mb-4 uppercase tracking-wider">{pillar.title}</h3>
-              <p className="text-slate-400 text-sm leading-relaxed">
+              <h3 className="text-xl font-bold text-white mb-4 uppercase tracking-wider">{pillar.title}</h3>
+              <p className="text-slate-400 text-base leading-relaxed">
                 {pillar.description}
               </p>
             </motion.div>
@@ -86,7 +86,7 @@ const ValuePillars: React.FC = () => {
           transition={{ delay: 0.4 }}
         >
           <h4 className="text-fuchsia-400 font-bold mb-2 uppercase tracking-widest text-sm">Built live in the workshop</h4>
-          <p className="text-white text-lg font-medium">
+          <p className="text-white text-xl font-medium">
             You get concrete tools, processes, and next steps — not "maybe it's worth considering automation."
           </p>
         </motion.div>

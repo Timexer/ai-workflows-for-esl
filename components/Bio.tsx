@@ -25,12 +25,12 @@ const Bio: React.FC = () => {
             {/* Right Column: Bio Text */}
             <div className="md:col-span-7 space-y-8">
               <div>
-                <h3 className="text-4xl font-extrabold text-slate-900 mb-2 tracking-tight">Meet Your Instructor: Tim</h3>
-                <p className="text-brand-600 font-bold text-lg uppercase tracking-wide">ESL Business English Trainer & AI Education Specialist</p>
+                <h3 className="text-5xl font-extrabold text-slate-900 mb-2 tracking-tight">Meet Your Instructor: Tim</h3>
+                <p className="text-brand-600 font-bold text-xl uppercase tracking-wide">ESL Business English Trainer & AI Education Specialist</p>
                 <div className="h-1 w-20 bg-brand-400 mt-4 rounded-full"></div>
               </div>
 
-              <div className="prose prose-lg text-slate-600 leading-relaxed">
+              <div className="prose prose-xl text-slate-600 leading-relaxed">
                 <p>
                   Tim is a certified <span className="font-bold text-slate-800 italic">Gen AI leader from Google</span> and a <span className="font-bold text-slate-800 italic">CELTA-certified</span> teacher with years of experience in the ESL classroom. He specializes in bridging the gap between traditional pedagogy and modern technology, helping teachers use AI responsibly without deteriorating teaching quality. Having trained hundreds of students, Tim provides practical, ethical workflows tested with real-world Business English clients.
                 </p>
@@ -39,8 +39,8 @@ const Bio: React.FC = () => {
               <div className="flex flex-wrap items-center gap-8 pt-4">
                 {/* Stats Box */}
                 <div className="bg-slate-50 px-6 py-4 rounded-xl border border-slate-100 shadow-sm min-w-[160px] text-center">
-                  <span className="block text-4xl font-black text-slate-900">12+</span>
-                  <span className="text-xs font-bold text-slate-500 uppercase tracking-wider mt-1 block">Years Teaching</span>
+                  <span className="block text-5xl font-black text-slate-900">12+</span>
+                  <span className="text-sm font-bold text-slate-500 uppercase tracking-wider mt-1 block">Years Teaching</span>
                 </div>
 
                 {/* Badges */}

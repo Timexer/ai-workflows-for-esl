@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-3xl md:text-6xl lg:text-7xl font-extrabold text-white tracking-tight mb-6 md:mb-8 leading-tight max-w-5xl mx-auto">
+          <h1 className="text-4xl md:text-7xl lg:text-8xl font-extrabold text-white tracking-tight mb-8 md:mb-10 leading-tight max-w-6xl mx-auto">
             Stop wasting 10-20 hours <br />
             every week on prep that <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 to-purple-500">AI can do for You</span>
@@ -26,12 +26,12 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <a href="#signup">
-            <Button size="lg" className="bg-gradient-to-r from-fuchsia-600 to-purple-600 hover:from-fuchsia-500 hover:to-purple-500 border-none px-8 py-4 md:px-12 md:py-5 text-lg md:text-xl font-bold rounded-full shadow-[0_0_20px_rgba(192,38,211,0.4)] transform transition hover:scale-105 active:scale-95">
+            <Button size="lg" className="bg-gradient-to-r from-fuchsia-600 to-purple-600 hover:from-fuchsia-500 hover:to-purple-500 border-none px-10 py-5 md:px-14 md:py-6 text-xl md:text-2xl font-bold rounded-full shadow-[0_0_20px_rgba(192,38,211,0.4)] transform transition hover:scale-105 active:scale-95">
               Secure Your Spot (3 hours)
             </Button>
           </a>
 
-          <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 md:gap-x-8 text-slate-400 text-xs md:text-sm font-medium">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-3 md:gap-x-10 text-slate-400 text-sm md:text-base font-medium">
             <div className="flex items-center gap-2">
               <Check className="w-3 h-3 md:w-4 md:h-4 text-fuchsia-500" />
               <span>Grounded in British Council/Cambridge standards</span>

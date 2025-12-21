@@ -30,10 +30,10 @@ const Pricing: React.FC = () => {
     <section id="pricing" className="py-20 md:py-32 bg-[#0a0a0a] relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">
+          <h2 className="text-4xl md:text-6xl font-extrabold text-white mb-6 tracking-tight">
             Ready to reclaim your prep time?
           </h2>
-          <p className="text-slate-400 text-xl max-w-3xl mx-auto leading-relaxed">
+          <p className="text-slate-400 text-2xl max-w-4xl mx-auto leading-relaxed">
             Stop wondering "if AI is worth it" — join the hands-on workshop to build your own <span className="text-fuchsia-500 font-bold underline decoration-fuchsia-500/30">AI workflows</span> that help you tailor your lessons to your student’s needs.
           </p>
         </div>
@@ -44,8 +44,8 @@ const Pricing: React.FC = () => {
               <div className="mb-6 p-3 bg-[#1e1e1e] rounded-lg w-fit group-hover:bg-fuchsia-500/20 transition-colors">
                 {benefit.icon}
               </div>
-              <h4 className="text-white font-bold mb-3 text-sm tracking-tight">{benefit.title}</h4>
-              <p className="text-slate-500 text-xs leading-relaxed">
+              <h4 className="text-white font-bold mb-3 text-lg tracking-tight">{benefit.title}</h4>
+              <p className="text-slate-500 text-base leading-relaxed">
                 {benefit.description}
               </p>
             </div>
