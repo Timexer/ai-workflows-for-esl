@@ -57,10 +57,18 @@ const PrivacyPolicy: React.FC = () => {
 
                     <section>
                         <h2 className="text-xl font-semibold text-white mb-4">5. Cookies</h2>
-                        <p>
+                        <p className="mb-4">
                             Our website uses cookies to enhance your browsing experience and analyze site traffic.
                             By using our website, you consent to our use of cookies in accordance with this Privacy Policy.
                         </p>
+                        <div className="bg-slate-900 p-4 rounded-lg">
+                            <script
+                                id="CookieDeclaration"
+                                src="https://consent.cookiebot.com/6cfae6d1-cf12-4cea-8b8d-c50b31e01ea6/cd.js"
+                                type="text/javascript"
+                                async
+                            ></script>
+                        </div>
                     </section>
 
                     <section>
