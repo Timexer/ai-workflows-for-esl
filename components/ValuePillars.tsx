@@ -87,7 +87,7 @@ const ValuePillars: React.FC = () => {
         >
           <h4 className="text-fuchsia-400 font-bold mb-2 uppercase tracking-widest text-sm">Built live in the workshop</h4>
           <p className="text-white text-xl font-medium">
-            You get concrete tools, processes, and next steps — not "maybe it's worth considering automation."
+            You get concrete tools, processes, and next steps - not "maybe it's worth considering automation."
           </p>
         </motion.div>
       </div>

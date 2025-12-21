@@ -34,7 +34,7 @@ const Pricing: React.FC = () => {
             Ready to reclaim your prep time?
           </h2>
           <p className="text-slate-400 text-2xl max-w-4xl mx-auto leading-relaxed">
-            Stop wondering "if AI is worth it" — join the hands-on workshop to build your own <span className="text-fuchsia-500 font-bold underline decoration-fuchsia-500/30">AI workflows</span> that help you tailor your lessons to your student’s needs.
+            Stop wondering "if AI is worth it" - join the hands-on workshop to build your own <span className="text-fuchsia-500 font-bold underline decoration-fuchsia-500/30">AI workflows</span> that help you tailor your lessons to your student’s needs.
           </p>
         </div>
 
