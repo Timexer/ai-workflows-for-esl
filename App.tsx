@@ -1,36 +1,19 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Audience from './components/Audience';
-import ValuePillars from './components/ValuePillars';
-import Curriculum from './components/Curriculum';
-import Research from './components/Research';
-import Pricing from './components/Pricing';
-import SignUp from './components/SignUp';
-import FreeResource from './components/FreeResource';
-import Bio from './components/Bio';
-import FAQ from './components/FAQ';
-import Footer from './components/Footer';
+import LandingPage from './components/LandingPage';
+import PrivacyPolicy from './components/PrivacyPolicy';
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#0a0a0a] font-sans text-slate-200">
-      <Header />
-      <main>
-        <Hero />
-        <Audience />
-        <ValuePillars />
-        <Curriculum />
-        <Research />
-        <Pricing />
-        <SignUp />
-        <FreeResource />
-        <Bio />
-        <FAQ />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <div className="min-h-screen bg-[#0a0a0a] font-sans text-slate-200">
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

@@ -52,6 +52,7 @@ const Pricing: React.FC = () => {
           ))}
         </div>
 
+        {/* 
         <div className="flex flex-col items-center">
           <a href="#signup" className="w-full max-w-sm">
             <Button size="lg" fullWidth className="bg-gradient-to-r from-fuchsia-600 to-purple-600 hover:from-fuchsia-500 hover:to-purple-500 py-6 text-xl font-bold rounded-xl shadow-[0_10px_40px_rgba(192,38,211,0.2)]">
@@ -64,6 +65,7 @@ const Pricing: React.FC = () => {
             <span className="flex items-center gap-1">✓ Results in under 180 mins</span>
           </div>
         </div>
+        */}
       </div>
 
       {/* Glow Effect Bottom */}

@@ -42,7 +42,7 @@ const ValuePillars: React.FC = () => {
   };
 
   return (
-    <section className="py-24 bg-[#0a0a0a] border-t border-white/5">
+    <section id="outcomes" className="py-24 bg-[#0a0a0a] border-t border-white/5">
       <div className="container mx-auto px-4">
         <motion.div
           className="text-center mb-20"
