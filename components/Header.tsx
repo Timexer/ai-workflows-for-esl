@@ -27,9 +27,9 @@ const Header: React.FC = () => {
         </div>
 
         <div className="hidden md:flex items-center space-x-10">
-          <Link to="/#outcomes" className="text-xs font-bold uppercase tracking-widest text-slate-400 hover:text-white transition-colors">Outcomes</Link>
-          <Link to="/#audience" className="text-xs font-bold uppercase tracking-widest text-slate-400 hover:text-white transition-colors">The Problem</Link>
-          <Link to="/#signup">
+          <Link to="/aiworkshop#outcomes" className="text-xs font-bold uppercase tracking-widest text-slate-400 hover:text-white transition-colors">Outcomes</Link>
+          <Link to="/aiworkshop#audience" className="text-xs font-bold uppercase tracking-widest text-slate-400 hover:text-white transition-colors">The Problem</Link>
+          <Link to="/aiworkshop#signup">
             <Button size="sm" className="bg-white text-black hover:bg-slate-200 border-none font-bold rounded-full px-6">
               Join Workshop
             </Button>

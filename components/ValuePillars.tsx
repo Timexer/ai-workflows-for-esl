@@ -7,7 +7,7 @@ const ValuePillars: React.FC = () => {
     {
       icon: <Target className="w-6 h-6 text-fuchsia-500" />,
       title: "WHERE TO START",
-      description: "End the decision paralysis. You'll get 3 priority areas in your teaching context with a clear roadmap."
+      description: "Cut through conflicting advice about AI in teaching."
     },
     {
       icon: <Timer className="w-6 h-6 text-fuchsia-500" />,
@@ -17,12 +17,12 @@ const ValuePillars: React.FC = () => {
     {
       icon: <Wrench className="w-6 h-6 text-fuchsia-500" />,
       title: "WHICH TOOLS",
-      description: "Proven solutions that work in real classrooms. Without testing countless apps that prove useless."
+      description: "A short list of tools that teachers are already using successfully in real classrooms."
     },
     {
       icon: <BarChart3 className="w-6 h-6 text-fuchsia-500" />,
-      title: "HOW TO MEASURE",
-      description: "Simple metrics that show your implementation is actually working before you burn out."
+      title: "PEER VALIDATION",
+      description: "Compare what you build and use with other teachers so you’re not guessing whether something actually works."
     }
   ];
 
@@ -52,8 +52,9 @@ const ValuePillars: React.FC = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
-            What if you could SEE exactly which <br />
-            ESL processes are worth automating?
+            What if you could learn, with other teachers, how AI <br />
+            can realistically support your teaching without <br />
+            compromising your standards?
           </h2>
           <div className="flex flex-wrap justify-center gap-6 text-slate-400 text-lg mt-10 italic">
             <span className="flex items-center gap-2">Discover your personal automation potential during our live hands-on session.</span>
@@ -87,7 +88,21 @@ const ValuePillars: React.FC = () => {
         >
           <h4 className="text-fuchsia-400 font-bold mb-2 uppercase tracking-widest text-sm">Built live in the workshop</h4>
           <p className="text-white text-xl font-medium">
-            You get concrete tools, processes, and next steps - not "maybe it's worth considering automation."
+            You get concrete tools, processes, and next steps - not abstract theory or one-off demos you’ll never use again.
+          </p>
+        </motion.div>
+
+        <motion.div
+          className="mt-6 py-8 px-12 rounded-2xl bg-[#0f0f0f] border border-blue-500/20 text-center max-w-4xl mx-auto"
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.5 }}
+        >
+          <h4 className="text-blue-400 font-bold mb-2 uppercase tracking-widest text-sm">Founding Cohort</h4>
+          <p className="text-white text-xl font-medium">
+            This is the founding cohort.
+            You’re joining a small group of teachers who are shaping how this approach develops sharing what works, what doesn’t, and setting realistic standards for AI use in ESL classrooms.
           </p>
         </motion.div>
       </div>
